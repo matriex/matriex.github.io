@@ -15,8 +15,8 @@
 
 @keyframes kf {
     0%   { -webkit-transform:rotate(50deg); margin-top: 0% margin-left: 0%; margin-right: 10%}
-    25%  { -webkit-transform:rotate(-50deg); margin-top: 10% margin-left: 10%; margin-right: 0%}
-    50%  { -webkit-transform:rotate(50deg);  margin-top: 20% margin-left: 0%; margin-right: 10%}
-    75%  { -webkit-transform:rotate(-50deg); margin-top: 10%; margin-left: 10%; margin-right: 0%}
-    100% { -webkit-transform:rotate(50deg); margin-top: 0%; margin-left: 0%; margin-right: 10%}
+    25%  { -webkit-transform:rotate(100deg); margin-top: 10% margin-left: 10%; margin-right: 0%}
+    50%  { -webkit-transform:rotate(150deg);  margin-top: 20% margin-left: 0%; margin-right: 10%}
+    75%  { -webkit-transform:rotate(200deg); margin-top: 10%; margin-left: 10%; margin-right: 0%}
+    100% { -webkit-transform:rotate(250deg); margin-top: 0%; margin-left: 0%; margin-right: 10%}
 }
