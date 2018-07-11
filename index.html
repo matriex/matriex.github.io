@@ -1,9 +1,27 @@
 <html lang="en">
   <head>
 		<title>My favourite Audio</title>
-	</head>
+	  <style>
+          * {
+              margin: 0;
+              padding: 0;
+            }
+          .imgbox {
+           display: grid;
+           height: 100%;
+            }
+         .center-fit {
+           max-width: 100%;
+           max-height: 100vh;
+           margin: auto;
+               }
+         </style>
+  </head>
   <body>
-    <img alt="" align="centre" src="docs/FMA.jpg" />
+	  <div class="imgbox">
+           <img class="center-fit" src='docs/FMA.jpg'>
+          </div>
+    
     <audio src="docs/Dante.mp3" controls="true" loop="true" autoplay="true"></audio>
     
   <body/>
